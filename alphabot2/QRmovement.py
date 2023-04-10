@@ -100,13 +100,6 @@ class QRmove(Node):
             self.QRmove_pub.publish(twist_msg)
             self.get_logger().info(f"Publishing [{CMD_VEL_TOPIC}] >> "
                                 f"linear={twist_msg.linear.x:.3}, angular={twist_msg.angular.z:.3}")
-        """if self.time>ustalic and self.start= True:
-            print("Koniec jazdy")
-            twist_msg.linear.x=float(0)
-            twist_msg.angular.z = float(0)
-            self.QRmove_pub.publish(twist_msg)
-            self.get_logger().info(f"Publishing [{CMD_VEL_TOPIC}] >> "
-                                f"linear={twist_msg.linear.x:.3}, angular={twist_msg.angular.z:.3}")"""
         print("Czas: ",self.time)
 
 def main(args=None):

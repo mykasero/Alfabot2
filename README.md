@@ -1,4 +1,4 @@
-# AlphaBot2-Pi with ROS2
+# AlphaBot2-Pi with ROS2 in Python
 The code has been developed for my final project of the Automation and Robotics course in Politechnika Rzeszowska.
 This repo contains ROS2 packages for the Waveshare AlphaBot2-Pi mobile robot:
   * alphabot2: nodes used to implement certain functionalities of AlphaBot2
